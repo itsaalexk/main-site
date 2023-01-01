@@ -6,6 +6,7 @@ import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
+import 'animate.css';
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
@@ -14,7 +15,7 @@ const Navbar = () => {
   const toggleNavList = () => setShowNavList(!showNavList)
 
   return (
-    <nav className='center nav'>
+    <nav className='center nav animate__animated animate__fadeInRight'>
       <ul
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'

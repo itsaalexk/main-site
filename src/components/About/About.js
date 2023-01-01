@@ -1,13 +1,15 @@
+
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
+import 'animate.css';
 
 const About = () => {
   const {photo,name, role, description, resume, social } = about
 
   return (
-    <div className='about center'>
+    <div className='about center animate__animated animate__backInRight'>
       {photo && (
        <img height="200px" alt="Avatar placeholder" src={photo} />
       )}
