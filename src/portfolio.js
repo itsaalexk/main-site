@@ -56,7 +56,7 @@ const projects = [
     
   },
   {
-    name: 'Pokemon data App',
+    name: 'Pokemon Data App',
     description:
       'Pokemon App retrieves data from PokeApi to provide information about any given Pokemon',
     stack: ['Next UI', 'Typescript', 'NextJs'],
@@ -86,6 +86,7 @@ const skills = [
   'Python',
   'Firebase',
   'Docker',
+  "Postman"
   
 ]
 
