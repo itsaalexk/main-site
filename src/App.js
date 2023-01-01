@@ -21,7 +21,7 @@ const App = () => {
   },[loading])
 
   return (
-      loading ? <Loader size={20} color= "#23283e"/> : 
+      loading ? <Loader size={80} color= "#cdcdff"/> : 
     <div id='top' className={`${themeName} app`}>
       <Header />
 
