@@ -13,7 +13,7 @@ const about = {
   role: 'Full Stack Developer',
   description:
     'Devscola & Coderhouse student. Passionate about web-development and Cybersecurity. I enjoy learning new technologies and contributing to open-source projects. Im focused on improving my programming skills and stay updated with the latest technology. ',
-  resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1yzeSrQYcfVlx-bv-RiBAQ9al1Ecfgoqc/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/alex-kononenko-17a2a524b/',
     github: 'https://github.com/itsaalexk',
@@ -24,44 +24,44 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Movie Tracker',
+    name: 'Weather App',
     description:
-      'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
-    stack: ['localstorage', 'Openweather API', 'Google Map API','Movie Database API'],
-    sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
-    livePreview: 'https://mike-c-sanders.github.io/Movie-Tracker/',
+      'This App was developed to provide location data using Mapbox API and then obtain weather data using OpenWeather API.This App uses a CLI only to input and display data',
+    stack: ['localstorage', 'Openweather API', 'Mapbox API',"NodeJS"],
+    sourceCode: 'https://github.com/itsaalexk/weather-app',
+    livePreview: '',
   },
   {
-    name: 'Event Planner',
+    name: 'Note App',
     description:
-      'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
-    stack: ['swiper.js', 'npm', 'jawsdb','handlebars','express','nodejs'],
-    sourceCode: 'https://github.com/Morganbb104/Event_Planner_project2',
-    livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
+      'Simple note App made using Vanilla JS and Webpack as a module bundler . The information provided is stored in localstorage so you dont lose any data when refreshing the App',
+    stack: ['Vanilla Js', 'NPM', "Webpack"],
+    sourceCode: 'https://github.com/itsaalexk/notes',
+    livePreview: 'https://itsaalexk.github.io/notes/',
   },
   {
-    name: 'Resource Planner',
+    name: 'Gif App',
     description:
-      'Resource Planner is able to distrute the current resource including human resource,time and budget in one company in order to help user to manahe their projects',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
+      'Gif App that fetches data about any gif using Giphy API. This App was developed using React',
+    stack: ['API Fetching',"Firebase", 'React'],
     sourceCode: 'https://github.com/stone-com/Resource-Planner',
-    livePreview: 'https://resource-planner-group2.herokuapp.com/',
+    livePreview: '',
   },
   {
-    name: 'GameStoreData(back end)',
+    name: 'Journal App ',
     description:
-      'GameStoreData is able to let user retrieve the game from database based on its year and category',
-    stack: ['Java 8', 'MySQL', 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
+      'Journal App is able to register some logs , notes and upload some photos',
+    stack: ['Javascript', 'Material UI', 'React'],
+    sourceCode: 'https://github.com/itsaalexk/Journal-app',
     
   },
   {
-    name: 'Music Store(back end)',
+    name: 'Pokemon data App',
     description:
-      'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com/Morganbb104/M7-project2-musictore-recommendations-Huang_Chengchien',
-    livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
+      'Pokemon App retrieves data from PokeApi to provide information about any given Pokemon',
+    stack: ['Next UI', 'Typescript', 'NextJs'],
+    sourceCode: 'https://github.com/itsaalexk/pokemon-data',
+    livePreview: '',
   },
 ]
 

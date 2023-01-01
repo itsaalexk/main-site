@@ -1,6 +1,10 @@
+
 import './Footer.css'
 // Hacer un fetch a GITHUB Api para ver contribuiciones 
 const Footer = () => (
+  
+
+
   <footer className='footer'>
     <a
       href='https://github.com/itsaalexk/main-site'
@@ -8,7 +12,9 @@ const Footer = () => (
     >
       Created By Alex Kononenko
     </a>
+    
   </footer>
 )
+
 
 export default Footer
