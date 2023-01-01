@@ -1,22 +1,22 @@
-import aboutpic from "./components/Access/mePhoto.jpg"
+import aboutpic from "./components/Access/alex-1.jpeg"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
-  title: 'JS.',
+  homepage: '/',
+  title: '.',
 }
 
 const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
-  role: 'Full stack developer',
+  name: 'Alex Kononenko',
+  role: 'Full Stack Developer',
   description:
-    'UW and SMU bootcamp student living in Seattle,Washington. highly interested in cutting edge technology, web development and Java back end development.',
+    'Devscola & Coderhouse student. Passionate about web-development and Cybersecurity. I enjoy learning new technologies and contributing to open-source projects. Im focused on improving my programming skills and stay updated with the latest technology. ',
   resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
-    github: 'https://github.com/Morganbb104',
+    linkedin: 'https://www.linkedin.com/in/alex-kononenko-17a2a524b/',
+    github: 'https://github.com/itsaalexk',
   },
 }
 
@@ -77,20 +77,21 @@ const skills = [
   'MongoDB',
   'React',
   'Redux',
-  'SASS',
+  'NextJS',
+  "React Native",
   'Material UI',
-  'Git',
+  "Next UI",
+  'Git/ Github',
   'MERN',
-  'Java 8',
-  'Java Spring Boot',
-  'Microservices',
+  'Python',
+  'Firebase',
   'Docker',
-  'Heroku'
+  
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'hcc780921@gmail.com',
+  email: 'alexkononenko6@protonmail.com',
 }
 
 export { header, about, projects, skills, contact }
