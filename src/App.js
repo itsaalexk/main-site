@@ -7,12 +7,21 @@ import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Loader from './components/Loader/Loader'
 import './App.css'
+
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
+  const [loading, setLoading] = useState(true)
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false)
+    },3500)
+  },[loading])
 
   return (
+      loading ? <Loader size={20} color= "#23283e"/> : 
     <div id='top' className={`${themeName} app`}>
       <Header />
 
