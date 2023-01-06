@@ -44,7 +44,7 @@ const projects = [
     description:
       'Gif App that fetches data about any gif using Giphy API. This App was developed using React',
     stack: ['API Fetching',"Firebase", 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
+    sourceCode: 'https://github.com/itsaalexk/gif-app',
     livePreview: '',
   },
   {
