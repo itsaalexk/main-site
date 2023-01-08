@@ -1,14 +1,14 @@
 import aboutpic from "./components/Access/alex-1.jpeg"
 
 const header = {
-  // all the properties are optional - can be left empty or deleted
+  
   homepage: '/',
   title: '.',
 }
 
 const about = {
   photo:aboutpic,
-  // all the properties are optional - can be left empty or deleted
+
   name: 'Alex Kononenko',
   role: 'Full Stack Developer',
   description:
@@ -21,8 +21,7 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+
   {
     name: 'Weather App',
     description:
@@ -44,7 +43,7 @@ const projects = [
     description:
       'Gif App that fetches data about any gif using Giphy API. This App was developed using React',
     stack: ['API Fetching',"Firebase", 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
+    sourceCode: 'https://github.com/itsaalexk/gif-app',
     livePreview: '',
   },
   {
@@ -66,8 +65,7 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
+
   'HTML',
   'CSS',
   'JavaScript',
@@ -93,7 +91,7 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
+  
   email: 'alexkononenko6@protonmail.com',
 }
 
