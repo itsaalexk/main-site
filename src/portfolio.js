@@ -81,6 +81,8 @@ const skills = [
   "React Native",
   'Material UI',
   "Next UI",
+  "Bootstap",
+  "TailwindCSS",
   'Git/ Github',
   'MERN',
   'Python',
