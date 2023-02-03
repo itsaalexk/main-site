@@ -55,12 +55,12 @@ const projects = [
     
   },
   {
-    name: 'Pokemon Data App',
+    name: 'Calendy',
     description:
-      'Pokemon App retrieves data from PokeApi to provide information about any given Pokemon',
-    stack: ['Next UI', 'Typescript', 'NextJs'],
-    sourceCode: 'https://github.com/itsaalexk/pokemon-data',
-    livePreview: '',
+      ' Full Stack Calendar app to organize your own tasks',
+    stack: ['React', 'Javascript', 'Vite', "MongoDB", "JWT"],
+    sourceCode: 'https://github.com/itsaalexk/mern-calendar',
+    livePreview: 'https://mern-calendar-tau.vercel.app/',
   },
 ]
 
