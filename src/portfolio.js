@@ -5,6 +5,7 @@ const header = {
   title: '.',
 }
 console.log('hola')
+console.log('hola desde dev')
 
 const about = {
   photo: aboutpic,
