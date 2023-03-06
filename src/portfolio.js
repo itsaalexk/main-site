@@ -4,6 +4,7 @@ const header = {
   homepage: '/',
   title: '.',
 }
+console.log('hola')
 
 const about = {
   photo: aboutpic,
