@@ -13,7 +13,7 @@ const about = {
   description:
     'Passionate about web-development and Cybersecurity. I enjoy learning new technologies and contributing to open-source projects. Im focused on improving my programming skills and stay updated with the latest technology. ',
   resume:
-    'https://drive.google.com/file/d/1yzeSrQYcfVlx-bv-RiBAQ9al1Ecfgoqc/view?usp=sharing',
+    'https://drive.google.com/file/d/1ocUh4llS0-z3i5M1PCUnxEv-BseF9IxP/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/alex-kononenko-17a2a524b/',
     github: 'https://github.com/itsaalexk',
